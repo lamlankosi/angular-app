@@ -1,0 +1,104 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "name": "Acme Fresh Start Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/408960830.jpg?k=3869e93a3058afa54392258065b78034c227e4a9fa4c6ac1ab59abb38d79f77b&o=",
+      "availableUnits": 4,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 1,
+      "name": "A113 Transitional Housing",
+      "city": "Santa Monica",
+      "state": "CA",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/598325130.jpg?k=50f0cb47cb3e34b181a790ffc78c60003def242caa84d0c6d45ba14373ce7d4c&o=",
+      "availableUnits": 0,
+      "wifi": false,
+      "laundry": true
+    },
+    {
+      "id": 2,
+      "name": "Warm Beds Housing Support",
+      "city": "Juneau",
+      "state": "AK",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/567928559.jpg?k=2b9a35655aae29dbc29badbd01c966fe0b398dae9d858550d0048f0fde2a3e62&o=",
+      "availableUnits": 1,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": 3,
+      "name": "Homesteady Housing",
+      "city": "Chicago",
+      "state": "IT",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/463075949.jpg?k=c47c8ffa61fccbaa29c206d8a06e0492d2186c4a6c161650d9dfefb50aa64e09&o=",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 4,
+      "name": "Happy Homes Group",
+      "city": "Gary",
+      "state": "IN",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/590670304.jpg?k=8fb7b23d52db92daa60c61305dccc25074af85933bfae93a7136b08039a19eeb&o=",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 5,
+      "name": "Hopeful Apartment Group",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/591173168.jpg?k=df353a092c6543645866ef19a66ab377471626f2b57e28d46966ec3359b74b1e&o=",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 6,
+      "name": "Seriously Safe Towns",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/623647694.jpg?k=ee03f2c50078319378e086ec61660721fbf0bd9097825c21240ee7662fe30050&o=",
+      "availableUnits": 5,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 7,
+      "name": "Hopeful Housing Solutions",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/486949947.jpg?k=6e6043d05e09fa3d37b35a5f8446a02e16789382505aebc0a9e7b90526141e3f&o=",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 8,
+      "name": "Seriously Safe Towns",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270403520.jpg?k=dced0d339eff114539d3c1d0006cbcc67b2f3eface350c13416280261a7d9965&o=",
+      "availableUnits": 10,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": 9,
+      "name": "Capital Safe Towns",
+      "city": "Portland",
+      "state": "OR",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/600983384.jpg?k=fc18f483ce1701e167a5e6ecae66c988f731497d66805d0a6c9192448195cba2&o=",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true
+    }
+  ]
+}
