@@ -1,0 +1,34 @@
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.hidden-text {
+  color: green;
+  font-size: 18px;
+}
+
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+.placeholder-comment {
+  font-size: large;
+}
+
+.info-text {
+  font-style: italic;
+}
+
+.username {
+  font-size: 2rem;
+}
+
+.home{
+    padding: 1rem;
+}

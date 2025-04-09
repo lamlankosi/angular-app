@@ -1,0 +1,43 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
+.custom {
+  margin: 40px auto;
+  text-align: center;
+  padding: 10rem;
+}
