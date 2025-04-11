@@ -3,11 +3,7 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\details",
-    "\\src\\app\\home",
-    "\\src\\app\\housing-location",
-    "\\src\\app\\housinglocation",
-    "\\src\\assets"
+    "\\src\\app\\ag-grid"
   ],
   "PreviewInSolutionExplorer": false
 }

@@ -7,9 +7,9 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "inlineTemplate": true,
-          "inlineStyle": true,
-          "style": "scss",
+          "inlineTemplate": false,
+          "inlineStyle": false,
+          "style": "css",
           "skipTests": true
         },
         "@schematics/angular:class": {
@@ -48,7 +48,10 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.css"],
+            "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {

@@ -1,8 +1,12 @@
 import { Injectable } from '@angular/core';
-import { HousingLocation } from './housinglocation/housinglocation.component';
+import { HousingLocation } from 'src/app/housinglocation/housinglocation.component';
+
+
 @Injectable({
     providedIn: 'root',
 })
+
+
 export class HousingService {
     url = "http://localhost:3000/locations";
 
@@ -16,9 +20,9 @@ export class HousingService {
             const allHomes = await this.getAllHousingLocations();
             return allHomes.find(home => home.id === id);
 
-            //Direct fetch (if your JSON server supports this endpoint)
+            //Direct fetch (if JSON server supports this endpoint)
             // const data = await fetch(`${this.url}/${id}`);
-            // if (!data.ok) {
+            // if (!allhomes.id) {
             //     throw new Error(`Failed to fetch housing location with id ${id}`);
             // }
             // return await data.json();

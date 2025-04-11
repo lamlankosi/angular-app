@@ -1,0 +1,62 @@
+
+<main>
+
+
+    <button mat-raised-button>Hello World</button>
+
+    <mat-slide-toggle>Toggle me!</mat-slide-toggle>
+
+    <button mat-flat-button>click me</button>
+    <button mat-stroked-button>outline style</button>
+
+    <!-- circular with a transparent background -->
+    <button mat-icon-button>Icon</button>
+    <!-- default to primary color  -->
+    <button mat-fab>Fab</button>
+    <!-- smaller version of fab button -->
+    <button mat-mini-fab>Mini fab</button>
+
+    <!--colour-->
+    <button class="primary" mat-raised-button>Hello World</button>
+
+    <div>
+        <h4 class="title-bar">Progress Bar Buffer</h4>
+        <mat-progress-bar mode="buffer" class="progress-bar"></mat-progress-bar>
+    </div>
+
+    <div class="auto-complete">
+        <form class="ucl-form">
+            <mat-form-field class="ucl-full-width">
+                <input type="text"
+                       placeholder="Pick one team"
+                       aria-label="Select Favourite to win the UCL"
+                       matInput
+                       [formControl]="selectFavourites"
+                       [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let uclTeam of uclTeams" [value]="uclTeam">
+                        {{ uclTeam }}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </form>
+    </div>
+
+    <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+        <h3>Drag the best team first</h3>
+        <div class="example-box" *ngFor="let uclTeam of uclTeams" cdkDrag>{{uclTeam}}</div>
+    </div>
+
+    <div>
+        <!--<mat-grid-list cols="2" rowHeight="2:1">
+            <mat-grid-tile>1</mat-grid-tile>
+            <mat-grid-tile>2</mat-grid-tile>
+            <mat-grid-tile>3</mat-grid-tile>
+            <mat-grid-tile>4</mat-grid-tile>
+        </mat-grid-list>-->
+
+    </div>
+
+</main>
+
+

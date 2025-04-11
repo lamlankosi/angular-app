@@ -11,3 +11,41 @@ header {
   padding: var(--content-padding);
 }
 
+nav {
+    padding: 10px 0;    
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;          
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;         
+}
+
+nav ul li a {
+    text-decoration: none;          
+    font-size: 16px;         
+    text-transform: uppercase; 
+    letter-spacing: 1px;    
+    padding: 8px 16px;       
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    background-color: #444;  
+    color: #f8f8f8;         
+}
+
+
+nav ul li a.active {
+    color: purple;             
+}
+
+
+
+
