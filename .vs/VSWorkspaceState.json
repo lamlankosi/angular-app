@@ -3,7 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\ag-grid"
+    "\\src\\app\\ag-grid",
+    "\\src\\app\\material"
   ],
+  "SelectedNode": "\\src\\app\\material\\material.component.html",
   "PreviewInSolutionExplorer": false
 }

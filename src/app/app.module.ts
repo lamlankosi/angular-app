@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialComponent } from './material/material.component';
 import { MaterialModule } from './material/material.module';
-import { AgGridvModule } from './ag-grid/ag-grid.module'
 
 
 
@@ -18,7 +17,6 @@ import { AgGridvModule } from './ag-grid/ag-grid.module'
         BrowserModule,
         BrowserAnimationsModule,
         MaterialModule,
-        AgGridvModule
        
     ],
     exports:[]
