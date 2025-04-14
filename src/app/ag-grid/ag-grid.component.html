@@ -1,11 +1,11 @@
-<!--<div class="ag-theme-alpine" style="height: 400px; width: 600px;">
-    <ag-grid-angular [rowData]="rowData"
-                     [columnDefs]="columnDefs"
-                     [pagination]="true"
-                     [paginationPageSize]="2"
-                     class="ag-theme-alpine"
-                     [defaultColDef]="{ resizable: true }">
-    </ag-grid-angular>
-</div>-->
+<div class="content">
+    <!-- The AG Grid component, with Dimensions, CSS Theme, Row Data, and Column Definition -->
+    <ag-grid-angular class="ag-theme-alpine" style="width: 100%; height: 40rem;"
+                     [rowData]="rowData"
+                     [columnDefs]="colDefs" 
+                     [pagination]="pagination"
+                     [paginationPageSize]="paginationPageSize"
+                     [paginationPageSizeSelector]="paginationPageSizeSelector"
+                     [rowClassRules]="rowClassRules"/>
 
-<ag-grid-angular class="ag-theme-quartz" [rowData]="rowData" columnDefs="colDefs"/>
+</div>

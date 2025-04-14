@@ -5,6 +5,7 @@ import { AboutComponent } from 'src/app/about/about.component'
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MaterialComponent } from './material/material.component';
 import { AgGridComponent } from './ag-grid/ag-grid.component'
+import { AgChartsComponent } from './ag-charts/ag-charts.component'
 
 
 const routeConfig: Routes = [
@@ -32,6 +33,12 @@ const routeConfig: Routes = [
         path: 'ag-grid',
         component: AgGridComponent,
         title: 'AG Grid'
+    },
+    {
+        path: 'ag-charts',
+        component: AgChartsComponent,
+        title: 'Ag Charts'
+
     },
     {
         path: '',

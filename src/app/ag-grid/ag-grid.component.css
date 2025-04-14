@@ -1,0 +1,8 @@
+/* In ag-grid.component.css or global styles.css */
+.green-row {
+    background-color: #d4f7dc !important;
+}
+
+.green-cell {
+    background-color: #c2f0c2 !important;
+}
