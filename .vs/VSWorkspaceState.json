@@ -3,7 +3,8 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\ag-grid"
+    "\\src\\app\\housing-location",
+    "\\src\\app\\housinglocation"
   ],
   "SelectedNode": "\\db.json",
   "PreviewInSolutionExplorer": false
